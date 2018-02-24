@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context="com.kurt.bilgi.yarisma.sorugoster">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buton"
+        android:text="NOYAN"
+        android:textColor="#4b3822"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soru" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buton"
+        android:text="TANGUT"
+        android:textColor="#4b3822"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/buton"
+        android:text="SUNGURTEKİN"
+        android:textColor="#4b3822"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buton"
+        android:text="VURAL"
+        android:textColor="#4b3822"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn3" />
+
+    <TextView
+        android:id="@+id/soru"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/arkaplan"
+        android:padding="30dp"
+        android:text="ERTUĞRULUN EN BÜYÜK DÜŞMANI KİMDİR?"
+        android:textAlignment="center"
+        android:textColor="#efbb6a"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sayac"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#cccccc"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="10dp"
+        android:text="SKOR:"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#cccccc"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/soru"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/skor"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="21dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#cccccc"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/soru"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+</android.support.constraint.ConstraintLayout>
