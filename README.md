@@ -4,4 +4,5 @@ Uygulama FİREBASE Kullanılarak oluşturulmuştur
 Soru gönder
 Soru çek
 Scor tablosu bulunmaktadır
-EDİT: YAKIN ZAMANDA GOOGLEPLAY'E ATACAĞIM
+
+https://play.google.com/store/apps/details?id=com.yasrisma.bilgi.yarisma
